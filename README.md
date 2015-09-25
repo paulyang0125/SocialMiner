@@ -1,5 +1,5 @@
 # SocialMiner
-SocialMiner - the text mining toolkit developed for making sentiment analysis and idea clustering for Chinese text. 
+The text mining toolkit developed for making sentiment analysis and idea clustering for Chinese text. 
 
 This python-based application is to mainly solve the two problems during your day-by-day social network browsing
 Spend a lot of time reading your friend posts word by word in Facebook
@@ -7,7 +7,7 @@ Spend a lot of time reading your friend posts word by word in Facebook
 -	to find something you’re interesting
 -	to know about their emotional status.    
 
-It is comprised of two parts – *a backend platform supporting REST interface* and *a simple frontend by PHP* to demonstrate the effects of sentiment analysis and idea clustering.
+It is comprised of two parts – **a backend platform supporting REST interface** and **a frontend by PHP** to demonstrate the effects of sentiment analysis and idea clustering.
 
 Check it out - [**the tutorial doc**]() for how you use Social Miner.
 
@@ -52,7 +52,7 @@ So far Social Miner only supports Chinese text. However, it's easy to alter segm
 
 ### Contributor:
 
-
+[**Leon Yang**](https://github.com/leonyang0124)
 
 
 ### License:
