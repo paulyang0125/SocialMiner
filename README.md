@@ -13,7 +13,7 @@ Check it out - [**the tutorial doc**]() for how you use Social Miner.
 
 
 
-### Quick-start
+## Quick-start:
 
 You can run it on local or remote hosted environment like Amazon
 What you need to do
@@ -25,13 +25,13 @@ What you need to do
 
 You can run or modify [*the shell script*]() to ease the booting process of the backend server. 
 
-### Demo
+## Demo:
 [Live demo for using social miner to browse the facebook post in topic-based fashion and emotional degree for each post](https://chrome.google.com/webstore/detail/social-network-miner/lplokjcgfmgiogkkicgmbdhnnkihbejc)    
 
 You need to login your facebook first and then choose a friend from your friend list. After that, your friend posts will be sorted and display based on the topic they belong and on the left, the emoticons will be used to represent the emotional status of each post.   
 
 
-### Dependencies
+## Dependencies:
 
 - json
 - bottle
@@ -45,7 +45,7 @@ You need to login your facebook first and then choose a friend from your friend 
 - heapq
 - re
 
-### Limitations
+## Limitations:
 
 So far Social Miner only supports Chinese text. However, it's easy to alter segmentation for English or other language easily. 
 
@@ -55,8 +55,8 @@ So far Social Miner only supports Chinese text. However, it's easy to alter segm
 [**Leon Yang**](https://github.com/leonyang0124)
 
 
-### License:
-The MIT License (MIT) Copyright (c) 2013 Yang Yao-Nien 
+## License:
+The MIT License (MIT) Copyright (c) 2015 Yang Yao-Nien 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy ofthis software and associated documentation files (the "Software"), to deal inthe Software without restriction, including without limitation the rights touse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies ofthe Software, and to permit persons to whom the Software is furnished to do so,subject to the following conditions: The above copyright notice and this permission notice shall be included in allcopies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS ORIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESSFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS ORCOPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHERIN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR INCONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
