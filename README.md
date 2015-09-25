@@ -28,7 +28,12 @@ You can run or modify [*the shell script*]() to ease the booting process of the 
 ## Demo:
 [Live demo for using social miner to browse the facebook post in topic-based fashion and emotional degree for each post](https://chrome.google.com/webstore/detail/social-network-miner/lplokjcgfmgiogkkicgmbdhnnkihbejc)    
 
-You need to login your facebook first and then choose a friend from your friend list. After that, your friend posts will be sorted and display based on the topic they belong and on the left, the emoticons will be used to represent the emotional status of each post.   
+
+![Demo](https://lh3.googleusercontent.com/6U-NpcbXxaMeIjendQW5heGaUdR3D7l_CX-0Ghs7EwpAqPK5oAoyn8O8UiFVLmKlDpa_3Q-F=s640-h400-e365-rw)
+
+You need to login your facebook first and then choose a friend from your friend list. After that, your friend posts will be sorted and display based on the topic they belong and on the left, the emoticons will be used to represent the emotional status of each post.
+
+
 
 
 ## Dependencies:
