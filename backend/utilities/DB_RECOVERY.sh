@@ -1,0 +1,1 @@
+/home/mongodb-linux-x86_64-2.4.4/bin/mongod --dbpath --dbpath /home/mongodata/db/  --repair --repairpath /home/mongodata/db/

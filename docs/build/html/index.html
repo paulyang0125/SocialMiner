@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Documentation Tutorial: SocialMiner &mdash; SocialMiner 0.0.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="SocialMiner 0.0.1 documentation" href="#" />
+    <link rel="next" title="Prerequisite and installation" href="prerequisite.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="prerequisite.html" title="Prerequisite and installation"
+             accesskey="N">next</a> |</li>
+        <li><a href="#">SocialMiner 0.0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="documentation-tutorial-socialminer">
+<h1>Documentation Tutorial: SocialMiner<a class="headerlink" href="#documentation-tutorial-socialminer" title="Permalink to this headline">¶</a></h1>
+</div>
+<div class="section" id="whats-social-miner">
+<h1>What’s Social Miner<a class="headerlink" href="#whats-social-miner" title="Permalink to this headline">¶</a></h1>
+<p>This python-based application is basically to solve the two problems during your day-by-day social network browsing.</p>
+<ol class="arabic simple">
+<li>You have to spend a lot time reading your friend’s posts one by one, instead of being able to pick them based on your favorite topics. For example, I’m the fan of food, I want to quickly look at the related posts from my friends to know whether they share something useful like restaurant rating or somewhere is interesting and worth to go for grabbing food.</li>
+<li>You’re used to maintaining your connection for friends and families by making comment or like in their pages to show your concern about their status change. So you’re hoping a better and quicker way in getting to know people’s emotional status rather than barely reading their posts one by one.</li>
+</ol>
+<p>If you’re suffering from the problems above, Social Miner is just right for you to provide a way to let you view your friend’s post in the categorization-based fashion, such as sport, politician or food in order to make your browsing more fun and efficient and also provide with the sentiment analysis to let you digest all the text-based posts instantly without taking time to read to get what people you care feel about every day.</p>
+<div class="section" id="technical-features">
+<h2>Technical Features<a class="headerlink" href="#technical-features" title="Permalink to this headline">¶</a></h2>
+<p>This python-based application is comprised of two parts – a backend platform supporting REST interface and a frontend by PHP to demonstrate the effects of sentiment analysis and idea clustering. The followings are the supporting features.</p>
+<ul class="simple">
+<li>Chinese text segmentation based on directed acyclic graph with prefix dictionary structure</li>
+<li>Text preprocessing / feature extraction techniques, such as <a class="reference external" href="https://en.wikipedia.org/wiki/Bag-of-words_model">BOW</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/Tf%E2%80%93idf">TF-IDF</a> with the dictionary of positive and negative term.</li>
+<li>Sentient analysis (opinion and subjectivity for Chinese text) based on the algorithms, such as <a class="reference external" href="https://en.wikipedia.org/wiki/K-means_clustering">K-mean</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/Naive_Bayes_classifier">naïve bayes</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/Decision_tree">decision tree</a> and <a class="reference external" href="https://en.wikipedia.org/w/index.php?title=Multinomial_logistic_regression&amp;redirect=no">maximum entropy classification</a></li>
+<li>Ideas clustering based on <a class="reference external" href="https://en.wikipedia.org/wiki/Latent_semantic_analysis">latent semantic analysis (LSA)</a></li>
+<li>REST interface to access via internet.</li>
+</ul>
+</div>
+<div class="section" id="socialtextminer-documentation-contents">
+<h2>SocialTextMiner documentation contents<a class="headerlink" href="#socialtextminer-documentation-contents" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="prerequisite.html">Prerequisite and installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quickstart.html">Quick Start</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="quickstart.html#setup-the-backend">Setup the backend</a></li>
+<li class="toctree-l2"><a class="reference internal" href="quickstart.html#setup-the-frontend">Setup the frontend</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="demo.html">Demo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="apis.html">REST APIs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="architecture.html">Architecture Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="limitations.html">Limitations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributor.html">Contributors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html#contact">Contact</a></li>
+<li class="toctree-l1"><a class="reference internal" href="help.html">Need Help</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><a class="reference internal" href="search.html"><em>Search Page</em></a></li>
+</ul>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="#">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Documentation Tutorial: SocialMiner</a></li>
+<li><a class="reference internal" href="#whats-social-miner">What’s Social Miner</a><ul>
+<li><a class="reference internal" href="#technical-features">Technical Features</a></li>
+<li><a class="reference internal" href="#socialtextminer-documentation-contents">SocialTextMiner documentation contents</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+
+  <h4>Next topic</h4>
+  <p class="topless"><a href="prerequisite.html"
+                        title="next chapter">Prerequisite and installation</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/index.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="prerequisite.html" title="Prerequisite and installation"
+             >next</a> |</li>
+        <li><a href="#">SocialMiner 0.0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2015, Yao Nien, Yang ; Leon Yang.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.3.
+    </div>
+  </body>
+</html>
