@@ -1,4 +1,0 @@
-REST APIs
-=========
-
-Under development

@@ -52,7 +52,7 @@ You need to login your facebook first and then choose a friend from your friend 
 
 ## Limitations:
 
-So far Social Miner only supports Chinese text. However, it's easy to alter segmentation for English or other language easily. 
+So far Social Miner only supports Chinese text. However, it's easy to alter segmentation for English or other language. 
 
 
 ### Contributor:
