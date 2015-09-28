@@ -9,7 +9,7 @@ Spend a lot of time reading your friend posts word by word in Facebook
 
 It is comprised of two parts – *a backend platform supporting REST interface* and *a frontend by PHP* to demonstrate the effects of sentiment analysis and idea clustering.
 
-Check it out - [**the tutorial doc**]() for how you use Social Miner.
+Check it out - [**the tutorial doc**](http://socialminer.readthedocs.org/en/latest/) for how you use Social Miner.
 
 
 
