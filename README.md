@@ -21,9 +21,15 @@ What you need to do
 -	Install all dependent packages by pip
 -	Start your mongo database. 
 -	Put the frontend with any http server
--	Simply start backend REST server (it support http server already) by the following command 
+-	Simply start backend REST server (it support http server already) by the following command
 
-You can run or modify [*the shell script*]() to ease the booting process of the backend server. 
+'''
+
+$bash utilities/startbackend.sh
+
+''' 
+
+You can run or modify [*the shell script*](https://github.com/paulyang0125/SocialMiner/blob/master/backend/utilities/startbackend.sh) to ease the booting process of the backend server. 
 
 ## Demo:
 [Live demo for using social miner to browse the facebook post in topic-based fashion and emotional degree for each post](https://chrome.google.com/webstore/detail/social-network-miner/lplokjcgfmgiogkkicgmbdhnnkihbejc)    
