@@ -23,11 +23,9 @@ What you need to do
 -	Put the frontend with any http server
 -	Simply start backend REST server (it support http server already) by the following command
 
-'''
-
+```
 $bash utilities/startbackend.sh
-
-''' 
+```
 
 You can run or modify [*the shell script*](https://github.com/paulyang0125/SocialMiner/blob/master/backend/utilities/startbackend.sh) to ease the booting process of the backend server. 
 
